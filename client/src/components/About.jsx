@@ -22,7 +22,7 @@ export default function About({ profile }) {
           <div className="bc-label">Bio</div>
           <p>Final-year student in <strong>Electronics &amp; Telecommunication at VIIT Pune</strong> (Graduating {profile.graduationYear}). I build full-stack applications and AI-integrated systems across web, backend, and AI domains.</p>
           <p style={{ marginTop: '.55rem' }}>Participated in <strong>{profile.stats.hackathons} hackathons</strong> including SIH and multiple national-level competitions. I enjoy building scalable <strong>backend systems</strong>, intuitive interfaces, and AI-powered workflows that solve real problems.</p>
-          <div className="callout">◈ &nbsp;{profile.tagline}</div>
+          <div className="callout">◈ &nbsp;Backend Developer · Full-Stack · UI/UX · Gen AI</div>
           <div className="card-stat-row">
             <div className="card-stat"><div className="card-stat-n">4th</div><div className="card-stat-l">Year</div></div>
             <div className="card-stat"><div className="card-stat-n">{profile.cgpa}</div><div className="card-stat-l">CGPA</div></div>
