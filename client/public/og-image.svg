@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0B0B0B"/>
+  <rect x="60" y="60" width="1080" height="510" rx="24" fill="#0F0F12" stroke="rgba(255,255,255,0.09)" stroke-width="2"/>
+  <circle cx="200" cy="315" r="80" fill="url(#g)"/>
+  <text x="200" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#4F8EF7">A</text>
+  <text x="340" y="260" font-family="system-ui, sans-serif" font-size="56" font-weight="600" fill="#F5F5F7">Apurva Dabhade</text>
+  <text x="340" y="320" font-family="monospace" font-size="28" fill="#A8A8B0">Backend · Full-Stack · AI/ML · VIIT Pune 2027</text>
+  <text x="340" y="380" font-family="monospace" font-size="24" fill="#4F8EF7">apurva.dev</text>
+  <defs>
+    <linearGradient id="g" x1="120" y1="235" x2="280" y2="395">
+      <stop stop-color="#4F8EF7"/>
+      <stop offset="1" stop-color="#B49BFF"/>
+    </linearGradient>
+  </defs>
+</svg>

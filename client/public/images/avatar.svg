@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="200" y2="200">
+      <stop stop-color="#141419"/>
+      <stop offset="1" stop-color="#0F0F12"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="40" y1="40" x2="160" y2="160">
+      <stop stop-color="#4F8EF7"/>
+      <stop offset="1" stop-color="#B49BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="198" height="198" rx="23" stroke="rgba(255,255,255,0.09)" stroke-width="2"/>
+  <circle cx="100" cy="78" r="42" fill="url(#accent)" opacity="0.15"/>
+  <text x="100" y="118" text-anchor="middle" font-family="'Instrument Serif', serif" font-size="72" fill="url(#accent)">A</text>
+  <text x="100" y="168" text-anchor="middle" font-family="'DM Mono', monospace" font-size="14" fill="#A8A8B0" letter-spacing="0.2em">APURVA</text>
+</svg>
