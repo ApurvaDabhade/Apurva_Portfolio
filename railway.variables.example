@@ -1,0 +1,10 @@
+# Paste into Railway → your API service → Variables → Raw Editor
+# Replace YOUR_PASSWORD with your Atlas database password (no quotes)
+
+MONGODB_URI=mongodb+srv://7717_apurva:YOUR_PASSWORD@cluster0.dskhehw.mongodb.net/apurva_portfolio
+NODE_ENV=production
+CLIENT_URL=https://your-production-url.vercel.app
+JWT_SECRET=change-me-to-a-long-random-string
+ADMIN_API_KEY=change-me-to-a-long-random-string
+
+# After saving, click Deploy / Redeploy. Logs should show: MongoDB connected
