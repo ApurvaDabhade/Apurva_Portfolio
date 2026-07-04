@@ -1,0 +1,12 @@
+# API server — no frontend build step
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[phases.install]
+cmds = ["npm ci --omit=dev || npm install --omit=dev"]
+
+[phases.build]
+cmds = ["echo 'API server — skipping frontend build'"]
+
+[start]
+cmd = "npm start"

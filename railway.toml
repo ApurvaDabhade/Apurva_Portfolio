@@ -1,0 +1,8 @@
+# Railway deploys the Express API only (not the React client — that goes on Vercel)
+[build]
+builder = "NIXPACKS"
+buildCommand = "npm install --prefix server --omit=dev"
+
+[deploy]
+startCommand = "npm start --prefix server"
+restartPolicyType = "ON_FAILURE"

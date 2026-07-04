@@ -20,7 +20,8 @@ Deploy the **React frontend** on Vercel and the **Express API** on Railway with 
 
 1. Push this repo to GitHub
 2. Go to [railway.app](https://railway.app) → **New Project** → **Deploy from GitHub**
-3. Select your repo and set **Root Directory** to `server`
+3. Select your repo — **Root Directory** can stay as `/` (repo root). The root `railway.toml` installs and starts only the `server/` API (no Vite build).
+   - **Alternative:** set Root Directory to `server` in Railway → Settings
 4. Add environment variables in Railway dashboard:
 
 | Variable | Value |
