@@ -90,6 +90,50 @@ const projects = [
       { label: 'SPC Analytics', color: 'amber' },
     ],
   },
+  {
+    title: 'CodSoft — UI/UX Design Portfolio',
+    slug: 'codsoft-ux',
+    category: 'UI/UX · Figma · Web Design · Internship',
+    description:
+      'UI/UX Design Intern at CodSoft — designed 5+ responsive web interfaces with a focus on usability, visual hierarchy, and accessible user flows. Portfolio includes high-fidelity Figma designs published on GitHub.',
+    highlights: [
+      'E-commerce site — product listing, cart flow, and checkout UI with responsive layouts',
+      'Restaurant menu design — typography-led layout with clear category hierarchy and pricing',
+      'Sign-up flow — multi-step registration with form validation UX and error state design',
+    ],
+    tags: ['Figma', 'Adobe XD', 'Wireframing', 'Prototyping', 'UI Design', 'UX Research', 'Responsive Design'],
+    githubUrl: 'https://github.com/ApurvaDabhade/CodSoft',
+    accent: 'rose',
+    icon: '🎨',
+    order: 5,
+    meta: [
+      { label: '5+ interfaces', color: 'rose' },
+      { label: 'CodSoft Intern', color: 'purple' },
+      { label: 'PDF case studies', color: 'blue' },
+    ],
+  },
+  {
+    title: 'GeeksforGeeks — Website Design Projects',
+    slug: 'gfg-design',
+    category: 'UI/UX · Web Design · Team Collaboration',
+    description:
+      'Associate Designer Team Member at GeeksforGeeks — contributed to website design projects as part of a collaborative design team, creating responsive layouts and UI components aligned with brand guidelines.',
+    highlights: [
+      'Collaborated with the design team on responsive website layouts for GFG web properties',
+      'Designed UI sections and components consistent with GeeksforGeeks brand identity',
+      'Participated in design reviews, iteration cycles, and handoff documentation for development',
+    ],
+    tags: ['Figma', 'Web Design', 'UI/UX', 'Responsive Design', 'Design Systems', 'Team Collaboration'],
+    accent: 'purple',
+    icon: '🌐',
+    order: 6,
+    badge: '✦ GFG · Associate Designer Team Member',
+    meta: [
+      { label: 'GFG Design Team', color: 'purple' },
+      { label: 'Website layouts', color: 'blue' },
+      { label: 'Brand-aligned UI', color: 'green' },
+    ],
+  },
 ];
 
 const profile = {
@@ -110,7 +154,7 @@ const profile = {
   university: 'Vishwakarma Institute of Information Technology, Pune',
   branch: 'E&TC',
   availability: 'Open to Internships',
-  stats: { projects: '3+', cgpa: '8.99', hackathons: '10+' },
+  stats: { projects: '6+', cgpa: '8.99', hackathons: '10+' },
   skills: {
     languages: ['Java', 'Python', 'JavaScript', 'TypeScript', 'React.js', 'Node.js', 'Express.js', 'Flask', 'HTML5', 'CSS3'],
     aiMl: ['OpenAI', 'LangChain', 'Pandas', 'NumPy', 'Scikit-learn', 'PyTorch', 'Power BI', 'Pinecone', 'HuggingFace'],
