@@ -29,7 +29,10 @@ export default function App() {
       api.getProjects().catch(() => null),
     ]).then(([profileRes, projectsRes]) => {
       if (profileRes?.data) setProfile({ ...profileRes.data, linkedin: LINKEDIN_URL });
-      if (projectsRes?.data?.length) setProjects(projectsRes.data);
+      const apiProjects = projectsRes?.data;
+      if (Array.isArray(apiProjects) && apiProjects.length >= fallbackProjects.length) {
+        setProjects(apiProjects);
+      }
     });
   }, []);
 

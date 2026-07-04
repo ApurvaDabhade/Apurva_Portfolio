@@ -1,5 +1,5 @@
 import SectionTitle from './SectionTitle';
-import { LINKEDIN_LABEL } from '../data/constants';
+import { LINKEDIN_LABEL, LINKEDIN_URL } from '../data/constants';
 
 const CORE_CHIPS = [
   'Data Structures & Algorithms', 'DBMS', 'Object-Oriented Programming', 'Operating Systems',
@@ -33,7 +33,7 @@ export default function About({ profile }) {
           <div className="contact-links">
             <a href={`mailto:${profile.email}`} className="contact-link"><span className="cl-icon">✉</span>{profile.email}</a>
             <a href={`tel:${profile.phone.replace(/\s/g, '')}`} className="contact-link"><span className="cl-icon">📞</span>{profile.phone}</a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer" className="contact-link"><span className="cl-icon" style={{ fontSize: '.65rem' }}>in</span>{LINKEDIN_LABEL}</a>
+            <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="contact-link"><span className="cl-icon" style={{ fontSize: '.65rem' }}>in</span>{LINKEDIN_LABEL}</a>
             <a href={profile.github} target="_blank" rel="noreferrer" className="contact-link"><span className="cl-icon" style={{ fontSize: '.65rem' }}>⌥</span>github.com/ApurvaDabhade</a>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { RESUME_PATH, RESUME_FILENAME } from '../data/constants';
+import { RESUME_PATH, RESUME_FILENAME, LINKEDIN_URL } from '../data/constants';
 
 export default function Hero({ profile }) {
   return (
@@ -22,7 +22,7 @@ export default function Hero({ profile }) {
           <a href={`mailto:${profile.email}`} className="btn btn-primary" data-rpl>✉ Get in Touch</a>
           <a href={RESUME_PATH} download={RESUME_FILENAME} className="btn btn-outline" data-rpl>↓ Resume</a>
           <a href={profile.github} target="_blank" rel="noreferrer" className="btn btn-outline" data-rpl>⌥ GitHub</a>
-          <a href={profile.linkedin} target="_blank" rel="noreferrer" className="btn btn-outline" data-rpl>in LinkedIn</a>
+          <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="btn btn-outline" data-rpl>in LinkedIn</a>
           <a href="#projects" className="btn btn-outline" data-rpl>View Projects →</a>
         </div>
         <div className="hero-stats">

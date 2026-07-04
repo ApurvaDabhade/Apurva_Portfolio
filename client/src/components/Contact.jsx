@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import SectionTitle from './SectionTitle';
-import { LINKEDIN_LABEL } from '../data/constants';
+import { LINKEDIN_LABEL, LINKEDIN_URL } from '../data/constants';
 import { api } from '../api/client';
 
 export default function Contact({ profile }) {
@@ -49,7 +49,7 @@ export default function Contact({ profile }) {
               <span><div className="ca-label">Call / WhatsApp</div><div className="ca-val">{profile.phone}</div></span>
               <span className="ca-arrow">→</span>
             </a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer" className="contact-action">
+            <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="contact-action">
               <span className="ca-icon" style={{ fontSize: '.72rem' }}>in</span>
               <span><div className="ca-label">Connect on LinkedIn</div><div className="ca-val">{LINKEDIN_LABEL}</div></span>
               <span className="ca-arrow">→</span>
@@ -88,7 +88,7 @@ export default function Contact({ profile }) {
 
           <div className="contact-social" style={{ marginTop: '1.5rem' }}>
             <a href={profile.leetcode} target="_blank" rel="noreferrer" className="social-btn">{'{}'} LeetCode</a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer" className="social-btn">in LinkedIn</a>
+            <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="social-btn">in LinkedIn</a>
             <a href={profile.github} target="_blank" rel="noreferrer" className="social-btn">⌥ GitHub</a>
           </div>
         </div>
