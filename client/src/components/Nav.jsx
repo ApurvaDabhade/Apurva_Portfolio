@@ -1,4 +1,4 @@
-import { RESUME_PATH, RESUME_FILENAME } from '../data/constants';
+import { RESUME_PATH, RESUME_FILENAME, LINKEDIN_URL } from '../data/constants';
 
 export default function Nav({ onOpenCmd }) {
   return (
@@ -19,7 +19,7 @@ export default function Nav({ onOpenCmd }) {
       <div className="n-actions">
         <a className="n-btn n-btn-ghost" href={RESUME_PATH} download={RESUME_FILENAME}>↓ Resume</a>
         <a className="n-btn n-btn-ghost" href="https://github.com/ApurvaDabhade" target="_blank" rel="noreferrer">⌥ GitHub</a>
-        <a className="n-btn n-btn-ghost" href="https://linkedin.com/in/apurva-dabhade" target="_blank" rel="noreferrer">in LinkedIn</a>
+        <a className="n-btn n-btn-ghost" href={LINKEDIN_URL} target="_blank" rel="noreferrer">in LinkedIn</a>
         <button type="button" className="n-btn n-btn-solid" onClick={onOpenCmd} title="Open command palette (⌘K)">⌘K</button>
       </div>
     </nav>

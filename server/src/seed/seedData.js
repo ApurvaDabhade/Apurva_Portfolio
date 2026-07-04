@@ -146,7 +146,7 @@ const profile = {
   ],
   email: 'apurvadabhade13@gmail.com',
   phone: '+91 77091 07717',
-  linkedin: 'https://linkedin.com/in/apurva-dabhade',
+  linkedin: 'https://www.linkedin.com/in/apurva-dabhade-14969a295/',
   github: 'https://github.com/ApurvaDabhade',
   leetcode: 'https://leetcode.com/u/apurvadabhade27',
   cgpa: 8.99,

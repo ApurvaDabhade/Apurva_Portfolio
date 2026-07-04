@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { RESUME_PATH, RESUME_FILENAME } from '../data/constants';
+import { RESUME_PATH, RESUME_FILENAME, LINKEDIN_URL } from '../data/constants';
 
 const CMD_ITEMS = [
   { href: '#about', icon: '👤', label: 'About', sub: 'who i am' },
@@ -9,7 +9,7 @@ const CMD_ITEMS = [
   { href: '#contact', icon: '✉', label: 'Contact', sub: 'get in touch' },
   { type: 'download', url: RESUME_PATH, filename: RESUME_FILENAME, icon: '↓', label: 'Resume', sub: 'download PDF' },
   { type: 'link', url: 'mailto:apurvadabhade13@gmail.com', icon: '✉', label: 'Email', sub: 'apurvadabhade13@gmail.com' },
-  { type: 'link', url: 'https://linkedin.com/in/apurva-dabhade', icon: 'in', label: 'LinkedIn', sub: 'apurva-dabhade' },
+  { type: 'link', url: LINKEDIN_URL, icon: 'in', label: 'LinkedIn', sub: 'apurva-dabhade-14969a295' },
   { type: 'link', url: 'https://github.com/ApurvaDabhade', icon: '⌥', label: 'GitHub', sub: 'ApurvaDabhade' },
   { type: 'link', url: 'https://leetcode.com/u/apurvadabhade27', icon: '{}', label: 'LeetCode', sub: 'apurvadabhade27' },
 ];
