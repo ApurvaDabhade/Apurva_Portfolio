@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { api } from './api/client';
 import { fallbackProfile, fallbackProjects } from './data/fallback';
+import { LINKEDIN_URL } from './data/constants';
 import usePortfolioEffects from './hooks/usePortfolioEffects';
 import Cursor from './components/Cursor';
 import Starfield from './components/Starfield';
@@ -27,8 +28,8 @@ export default function App() {
       api.getProfile().catch(() => null),
       api.getProjects().catch(() => null),
     ]).then(([profileRes, projectsRes]) => {
-      if (profileRes?.data) setProfile(profileRes.data);
-      if (projectsRes?.data) setProjects(projectsRes.data);
+      if (profileRes?.data) setProfile({ ...profileRes.data, linkedin: LINKEDIN_URL });
+      if (projectsRes?.data?.length) setProjects(projectsRes.data);
     });
   }, []);
 
